@@ -26,6 +26,7 @@ Table event_akad {
   id uuid [primary key]
   title varchar
   description text
+  event_id uuid
   event_users_id uuid
   event_date date
   event_hour varchar
